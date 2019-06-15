@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: fra.ocir.io/marsaf/spring-test
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: spring-test
